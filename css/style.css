@@ -21,6 +21,7 @@ a:hover {
 
 /* markdown content styles */
 blockquote {
+  font-size: 14px;
   margin-top: 5px;
   margin-bottom: 5px;
   padding-left: 1em;
@@ -85,14 +86,20 @@ p {
   margin-block-start: 1.5em;
   margin-block-end: 1.5em;
 }
+
 p,
 pre {
   word-break: normal;
   overflow-wrap: anywhere;
 }
+
 .markdown-image img {
   max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .anchor { 
   font-size: 100%; 
   visibility: hidden; 
@@ -107,12 +114,14 @@ h4:hover a {
 .highlight pre {
   padding: 7px;
   overflow-x: auto;
+  font-size: 13px !important;
 }
 
 .highlight {
   max-width: 100%;
   overflow-x: auto;
 }
+
 p code {
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
   font-size: inherit;
@@ -127,7 +136,6 @@ p code {
 pre code {
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
 }
-
 
 /* navigation */
 
